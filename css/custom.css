@@ -6,15 +6,14 @@ body,html{
 	font-weight:400;
 	margin:0px;
 	padding:0px;
+	background-color: #EFF6FF;
 }
-
-
 
 @font-face {
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: url(https://example.com/MaterialIcons-Regular.eot);
   src: local('Material Icons'),
     local('MaterialIcons-Regular'),
     url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
@@ -22,14 +21,94 @@ body,html{
     url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
 }
 
+#table-body tr th{
+    color: black;
+  }
+
+  #table-body tr th{
+    font-size: 17px; 
+  }
+
+
+  #table-body tr td{
+    color: black;
+  }
+
+
+  .image-container {
+	  display: inline-block;
+	  margin-right: 20px; 
+	  border: 1px solid #ccc;
+	  padding: 10px; 
+  }
+  
+  .image-box img {
+	  max-width: 100%; 
+  }
+
+#pagination-container {
+    margin: 0 auto;
+}
+
+.pagination .page-link {
+    font-size: 16px;
+    color: #333; 
+    background-color: #fff; 
+    border: 1px solid #ccc; 
+    margin-right: 5px; 
+    padding: 8px 12px; 
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff; 
+    color: #fff; 
+    border: 1px solid #007bff; 
+}
+
+.pagination .page-link:hover {
+    background-color: #f0f0f0; 
+}
+
+.pagination a.page-link {
+    font-size: 17px; 
+}
+
+.pagination li.page-item a.page-link {
+    padding: 9px 15px; 
+}
+
+.pagination li.page-item.disabled a.page-link,
+.pagination li.page-item a.page-link {
+    padding: 9px 15px; 
+}
+
+
+  #table-body tr td{
+    font-size: 17px; 
+  }
+.my-custom-input {
+    width: 500px;
+}
+
 .custom-text {
     font-size: 18px;
+}
+.ml-custom {
+    margin-left: 400px;
+}
+@media screen and (max-width: 768px) {
+    .btn-group button {
+        font-size: 12px; 
+    }
+	.ml-custom {
+        margin-left: 300px;
+    }
 }
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
+  font-size: 24px;
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -49,7 +128,6 @@ body,html{
   font-feature-settings: 'liga';
 }
 
-\
   p{
 	   font-size:15px;
 	   margin:12px 0 0;
@@ -231,12 +309,7 @@ overflow:auto;
 		  margin-right:10px;
 		  top:6px;
 	  }
-  
-  
-    /*=========sidebar---design- end-----*/
-	
-	
-	 /*========main-content- navbardesign -start-----*/
+
 	
 	  #content{
 		  position:relative;
@@ -456,7 +529,6 @@ background-color:rgba(0,0,0,0.09);
 	   
 	   .table-wrapper {
     background-color: #fff;
-    /* padding: 20px 25px; */
     margin:6px 0px 40px 0px;
     width: 100%;
     overflow: auto;

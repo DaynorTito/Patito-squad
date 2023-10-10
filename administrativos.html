@@ -1,108 +1,150 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-        <title>Administrativos</title>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/custom.css">
-	   
-  </head>
-  <body>
 
-<div class="wrapper">
-     
-	  <div class="body-overlay"></div>
-	 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<title>Administrativos</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
 
-	 <div id="sidebar" class="d-flex flex-column">
-	    <div class="sidebar-header py-5">
-			<div class="d-flex justify-content-center align-items-center">
-				<img src="assets/img/person_icono.png" class="img-fluid w-50 h-50" />
+<body>
+	<div class="wrapper">
+		<div class="body-overlay"></div>
+		<div id="sidebar" class="d-flex flex-column">
+			<div class="sidebar-header py-5">
+				<div class="d-flex justify-content-center align-items-center">
+					<img src="assets/img/person_icono.png" class="img-fluid w-50 h-50" />
+				</div>
+				<div class="container">
+					<h4 id="nombreUs" class="text-lg-center">nombre apellido</h4>
+					
+					<button class="btn btn-primary w-100 h-100 rounded-bottom">Unidad Academica</button>
+				</div>
 			</div>
-		   <div class="container">
-			<h4 class="text-lg-center">Ana Gomez</h4>
-			<button class="btn btn-primary w-100 h-100">Unidad Academica</button>
+			<div style="margin-top: -55px;">
+				<ul class="list-unstyled component m-1 py-5">
+					<li class="">
+						<a href="inicio.html" class="py-3">
+							<img src="assets/icons/icon _home_.png" alt="Inicio" class="mr-4">
+							<span class="custom-text">Inicio</span>
+						</a>
+					</li>
+
+					<li class="active">
+						<a href="#" class="py-3">
+							<img src="assets/icons/icon _administrator line_.png" alt="Administrador" class="mr-4">
+							<span class="custom-text">Administrativos</span>
+						</a>
+					</li>
+
+					<li class="">
+						<a href="#" class="py-3">
+							<img src="assets/icons/icon _buildings_.png" alt="Institucion" class="mr-4">
+							<span class="custom-text">Institucion</span>
+						</a>
+					</li>
+					<li class="">
+						<a href="#" class="py-3">
+							<img src="assets/icons/icon _profile 2user_.png" alt="Docentes" class="mr-4">
+							<span class="custom-text">Docentes</span>
+						</a>
+					</li>
+					<li class="">
+						<a href="#" class="py-3">
+							<img src="assets/icons/icon _teacher_.png" alt="Estudiantes" class="mr-4">
+							<span class="custom-text">Estudiantes</span>
+						</a>
+					</li>
+
+					<li class="dropdown">
+						<a href="#homeSubmenu1" data-toggle="collapse" aria-expanded="false"
+							class="dropdown-toggle py-3">
+							<img src="assets/icons/icon _Edit_.png" alt="Inicio" class="mr-3">
+							<span class="custom-text">Gestion Academica</span>
+						</a>
+						<ul class="collapse list-unstyled menu" id="homeSubmenu1">
+							<li><a href="#">opcion 1</a></li>
+							<li><a href="#">opcion 2</a></li>
+							<li><a href="#">opcion 3</a></li>
+						</ul>
+					</li>
+
+					<li class="dropdown">
+						<a href="#homeSubmenu2" data-toggle="collapse" aria-expanded="false"
+							class="dropdown-toggle py-3">
+							<img src="assets/icons/icon _file report_.png" alt="Inicio" class="mr-4">
+							<span class="custom-text">Reportes</span>
+						</a>
+						<ul class="collapse list-unstyled menu" id="homeSubmenu2">
+							<li><a href="#">opcion 1</a></li>
+							<li><a href="index.html">opcion 2</a></li>
+							<li><a href="#">opcion 3</a></li>
+						</ul>
+					</li>
+
+				</ul>
+			</div>
+			<div class="container mt-auto mb-5 text-center">
+				<a href="index.html" class="btn btn-primary w-75">Cerrar Sesión</a>
 			</div>
 		</div>
-		<div style="margin-top: -55px;">
-		<ul class="list-unstyled component m-1 py-5">
-			<li class="">
-				<a href="#" class="py-3">
-					<img src="assets/icons/icon _home_.png" alt="Inicio" class="mr-4"> 
-					<span class="custom-text">Inicio</span> 
-				</a>
-		  	</li>
-
-		  	<li class="active">
-				<a href="#" class="py-3">
-				<img src="assets/icons/icon _administrator line_.png" alt="Inicio" class="mr-4">
-				<span class="custom-text">Administrativos</span> 
-				</a>
-		   	</li>
-
-			<li class="">
-				<a href="#" class="py-3">
-					<img src="assets/icons/icon _buildings_.png" alt="Inicio" class="mr-4">
-					<span class="custom-text">Institucion</span> 
-				</a>
-			</li>
-			<li class="">
-				<a href="#" class="py-3">
-					<img src="assets/icons/icon _profile 2user_.png" alt="Inicio" class="mr-4">
-					<span class="custom-text">Docentes</span> 
-				</a>
-			</li>
-			<li class="">
-				<a href="#" class="py-3">
-					<img src="assets/icons/icon _teacher_.png" alt="Inicio" class="mr-4">
-					<span class="custom-text">Estudiantes</span> 
-				</a>
-			</li>
-			
-		  <li class="dropdown">
-		  <a href="#homeSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle py-3">
-			<img src="assets/icons/icon _Edit_.png" alt="Inicio" class="mr-3">
-			<span class="custom-text">Gestion Academica</span> 
-		</a>
-
-		  <ul class="collapse list-unstyled menu" id="homeSubmenu1">
-		     <li><a href="#">opcion 1</a></li>
-			 <li><a href="#">opcion 2</a></li>
-			 <li><a href="#">opcion 3</a></li>
-		  </ul>
-		  </li>
-		  
-		  
-		   <li class="dropdown">
-		  <a href="#homeSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle py-3">
-			<img src="assets/icons/icon _file report_.png" alt="Inicio" class="mr-4">
-			<span class="custom-text">Reportes</span> 
-		</a>
-		  <ul class="collapse list-unstyled menu" id="homeSubmenu2">
-		     <li><a href="#">opcion 1</a></li>
-			 <li><a href="#">opcion 2</a></li>
-			 <li><a href="#">opcion 3</a></li>
-		  </ul>
-		  </li>
-		
-		</ul>
 	</div>
-	<div class="container mt-auto mb-5 text-center">
-        <button class="btn btn-primary w-75">Cerrar Sesion</button>
-    </div>
-	 </div>
-	 
-	
+	<div class="wrapper">
+		<div id="content" class="">
+			<h1 class="ml-5 mt-4" style="height: 50px;">Administrativos</h1>
+			<form class="form-inline py-1 ml-4 mr-0">
+				<input class="form-control mr-sm-2 ml-4 mt-3" style="width: 35%; height: 45px;" placeholder="Buscar" aria-label="Search">
+				<button class="btn btn-primary mt-3 mr-5 w-20" type="submit" style="width: 10%; height: 45px;">Buscar</button>
+				<div class="btn-group mt-3 ml-5">
+					<button type="button" class="btn btn-outline-dark bg-light ml-1" style="height: 45px;">Copiar</button>
+					<button type="button" class="btn btn-outline-dark bg-light ml-1" style="height: 45px;">CSV</button>
+					<button type="button" class="btn btn-outline-dark bg-light ml-1" style="height: 45px;">Excel</button>
+					<button type="button" class="btn btn-outline-dark bg-light ml-1" style="height: 45px;">PDF</button>
+					<button type="button" class="btn btn-outline-dark bg-light ml-1" style="height: 45px;">Imprimir</button>
+				</div>
+				<a href="registroAdministrativo.html" class="btn btn-success mt-3 ml-auto mr-5" style="height: 45px;">Registrar Administrativo</a>
+			</form>
+		</div>
+		<div id="content">
+			<table class="table table-hover bg-light mt-5 ml-5" style="width: 94%;">
+				<thead>
+					<tr>
+						<th scope="col">ID</th>
+						<th scope="col">Apellidos</th>
+						<th scope="col">Nombres</th>
+						<th scope="col">Tipo de documento</th>
+						<th scope="col">No. de documento</th>
+						<th scope="col">Celular</th>
+						<th scope="col">Puesto o Cargo</th>
+						<th scope="col">Unidad o Area</th>
+						<th scope="col">Acciones</th>
+					</tr>
+				</thead>
+				<tbody id="table-body" style="font-size: 30px;">
+					
+				</tbody>
+			</table>
+			<div id="pagination-container" class="py-2" style="width: 100%;">
+				<ul id="pagina" class="pagination" style="width: 60%;">
+					<li class="page-item disabled">
+						<a class="page-link" href="#" tabindex="-1">Previous</a>
+					</li>
+					
+					<li class="page-item">
+						<a class="page-link" href="#">Next</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/scrpt.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
 
-
-	</div>=
-   <script src="js/jquery-3.3.1.slim.min.js"></script>
-   <script src="js/bootstrap.min.js"></script>
-  
-  </body>
-  
-  </html>
-
-
+</html>
