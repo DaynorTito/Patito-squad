@@ -18,7 +18,7 @@ $(document).ready(function() {
             
               if (usuario.password === password || password === '123456') {
                   
-                  window.location.href = '/inicio.html'; 
+                  window.location.href = 'inicio.html'; 
               } else {
                  
                   alert('Contraseña incorrecta. Inténtalo de nuevo.');
