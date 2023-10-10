@@ -1,6 +1,7 @@
 
 $(document).ready(function() {
-  $.getJSON('assets/data/datos.json', function(data) {
+  var jsonUrl = 'https://raw.githubusercontent.com/DaynorTito/Patito-squad/main/assets/data/datos.json';
+  $.getJSON(jsonUrl, function(data) {
       var usuarios = data; 
       $('#formulario_login').submit(function(event) {
           event.preventDefault(); 
@@ -49,7 +50,7 @@ function getCookie(cookieName) {
 
 
 $(document).ready(function () {
-    var jsonUrl = 'assets/data/datos.json';
+    var jsonUrl = 'https://raw.githubusercontent.com/DaynorTito/Patito-squad/main/assets/data/datos.json';
 
     var jsonData = [];
 
